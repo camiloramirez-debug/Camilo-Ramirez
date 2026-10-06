@@ -1,0 +1,19 @@
+body {
+background-color: burlywood;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:chocolate;
+    color: white;
+    padding: 20px;
+}
+nav {
+    list-style: none;
+}
+nav a {
+    color: white;
+}
+img{
+    max-width: 100%;
+}
