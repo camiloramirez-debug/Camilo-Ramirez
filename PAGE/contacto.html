@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+<body>
   <header>
     <h1>Prison Break</h1>
     <nav>
@@ -50,19 +51,19 @@
                 Instagram: @Desingc.r
             </p>
         </address>
+         <form action="confirmacion.html">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+         </form>
     </section>
 </main>
-<body>
-    <form action = confirmacion.html >
-<!-- nombre,apellido,mail, telefono, la consulta.. -->
- <label for="usuario">Ingrese su nombre de usuario:</label>
- <input type="text" name="usuario" id="usuario">
- <label for="contrasena" >Ingrese su contraseña:
-    <input type="text" placeholder="Minimo 6 caracteres" name="contrasena" id="contrasena"> 
- </label>
- <button type="submit">Enviar</button>
-    </form>
-</body>
 <footer>
     <p>
         Sitio realizado por Ramirez Camilo 
