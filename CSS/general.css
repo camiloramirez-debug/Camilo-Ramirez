@@ -10,10 +10,16 @@ header {
 }
 nav ul {
     list-style: none;
+    display: flex;
+    gap: 20px
 }
 nav a {
     color: white;
+    transition: color 0.3s;
 }
 img{
     max-width: 100%;
+}
+nav a:hover {
+    color: burlywood;
 }
